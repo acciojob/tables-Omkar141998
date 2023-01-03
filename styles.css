@@ -1,5 +1,10 @@
 
 /* Your CSS Code here. */
-.table-head{
+.table :hover{
+    background-color: black;
+    color: white;
     
+}
+.table-head{
+
 }
