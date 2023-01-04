@@ -15,16 +15,17 @@
 		<caption class="table">table</caption>
 		<thead class="table-dark">
 		  <tr>
-			<th id="total">#</th>
+			<th id="total" colspan="col">#</th>
 			<th>From</th>
 			<th>To</th>
 		    <th>Amount($)</th>
+			     
 		  </tr>
 		</thead>
 		<div class="table-responsive-sm"></div>
 		<tbody classs="table-data">
 		<tr>
-			<th id="total" colspan="">1</th>
+			<th id="total" colspan="row">1</th>
 			<td>Mark</td>
 			<td>Otto</td>
 			<td>1000</td>
@@ -32,15 +33,15 @@
 		
          <div class="table-responsive-xl">
 		<tr>
-			<th id="total" colspan="">2</th>
-			<td colspan="">Jacob</td>
+			<th id="total" colspan="row">2</th>
+			<td>Jacob</td>
 			<td>Tharnton</td>
 			<td>1500</td>
 		</tr>
 		<div class="table-responsive-md"></div>
 		<tr>
-			<th id="total">2</th>
-			<td colspan="">Jack</td>
+			<th id="total" colspan="row">2</th>
+			<td>Jack</td>
 			<td>Johan</td>
 			<td>2000</td>
 		</tr>
@@ -49,12 +50,11 @@
 		<div class="table-responsive-lg"></div>
 		<tfoot class="table-light">
 		<tr>
-			<th>
-				<td></td>
-				<td></td>
-			<td>Total 4000</td>
-		</th>
-		</tr>
+			<td></td>
+			<td></td>
+			<td class="text-end" id="total">Total</td>
+			<td>4000</td>
+	    </tr>
 		  </tfoot>
 		</table>
 	  </table>
